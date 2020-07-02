@@ -22,7 +22,7 @@ PRIMARY KEY( guest_id )
 
 CREATE TABLE Apartments(
 apt_id int  UNIQUE NOT NULL,
-building_id NOT NULL
+building_id int NOT NULL
 apt_type_code char,
 apt_number char,
 bathroom_count int,
